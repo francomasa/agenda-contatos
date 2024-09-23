@@ -15,7 +15,7 @@ header{
 }
 header img{
     height: 36px;
-    margin-right: 36px;
+    margin-right: 15px;
 }
 header h1 {
     font-size: 40px;
@@ -28,7 +28,7 @@ header h1 {
 }
 form{
     display: flex;
-    max-width: 640px;
+    max-width: 800px;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 56px;
@@ -65,21 +65,8 @@ table td{
     padding: 16px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-table td img{
-    height: 30px;
-}
 
-.resultado{
-    padding: 8px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
-}
-
-.aprovado{
-    background-color: #009432;
-}
-.reprovado{
-    background-color: red;
+.error-message{
+    color: red;
+    display: block;
 }
